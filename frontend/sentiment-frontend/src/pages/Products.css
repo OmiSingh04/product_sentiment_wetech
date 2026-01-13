@@ -1,0 +1,26 @@
+.products-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* slightly bigger spacing */
+}
+
+.product-item {
+  padding: 20px;
+  border: 2px solid black; /* thick blue border */
+  border-radius: 16px; /* curved corners */
+  font-size: 20px; /* bigger text */
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-item:hover {
+  background: #f0f8ff; /* subtle hover color */
+  transform: translateY(-3px);
+  border-color: #0056b3; /* darker blue on hover */
+}
